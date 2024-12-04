@@ -5,13 +5,15 @@ import org.springframework.web.bind.annotation.RequestMethod
 import org.springframework.web.bind.annotation.RequestParam
 import org.springframework.web.bind.annotation.RestController
 import application.service.IncrementService
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.PathVariable
 
 @RestController
 class IncrementController(
-    private val IncrementService: IncrementService
+    private val incrementService: IncrementService
 ) {
-    @RequestMapping("/increment", method = [RequestMethod.GET])
-    fun increment(@RequestParam("num") n: Int): Int {
-        return IncrementService.Increment(n)
+    @GetMapping("/{increment}")
+    fun increment(@PathVariable("num") n: Long): Long {
+        return incrementService.Increment(n)
     }
 }
