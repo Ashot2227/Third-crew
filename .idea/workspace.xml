@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd549042-58f3-4f4d-9148-37d798a7c270" name="Changes" comment="To work">
-      <change afterPath="$PROJECT_DIR$/FirstTask/src/test/kotlin/application/ApplicationTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstTask/src/main/kotlin/application/IncrementService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FirstTask/src/main/kotlin/application/service/IncrementService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +24,29 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/FirstTask/src">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/FirstTask">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Third-crew" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Third-crew" type="f1a62948:ProjectNode" />
+                <item name="FirstTask" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Third-crew" type="f1a62948:ProjectNode" />
+                <item name="FirstTask" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
             </expand>
             <select />
@@ -43,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -77,6 +93,15 @@
   &quot;keyToString&quot;: {
     &quot;Gradle.Build Third-crew.executor&quot;: &quot;Run&quot;,
     &quot;Gradle.Third-crew [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [buildMyAppImage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerBuildImage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerCreateDockerfile].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerPushImage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerSyncBuildContext].executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.FirstApplicationKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
@@ -87,7 +112,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -95,15 +120,16 @@
       <recent name="$PROJECT_DIR$/FirstTask/src/main" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="application.service" />
       <recent name="application" />
       <recent name="Application" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.FirstApplicationKt">
-    <configuration name="Third-crew [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Third-crew:FirstTask [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/FirstTask" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -111,7 +137,73 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="init" />
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Third-crew:FirstTask [buildMyAppImage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/FirstTask" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildMyAppImage" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Third-crew:FirstTask [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/FirstTask" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Third-crew:FirstTask [dockerBuildImage]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/FirstTask" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dockerBuildImage" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -129,26 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tbank.education.school.MainKt" />
-      <module name="Third-crew.FirstTask.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.tbank.education.school.MainKt" />
-      <module name="Third-crew.Test.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.FirstApplicationKt" />
-        <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Gradle.Third-crew [init]" />
+        <item itemvalue="Gradle.Third-crew:FirstTask [bootRun]" />
+        <item itemvalue="Gradle.Third-crew:FirstTask [dockerBuildImage]" />
+        <item itemvalue="Gradle.Third-crew:FirstTask [check]" />
+        <item itemvalue="Gradle.Third-crew:FirstTask [buildMyAppImage]" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732973669802</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="To work">
+      <option name="closed" value="true" />
+      <created>1733340820536</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733340820536</updated>
+    </task>
+    <task id="LOCAL-00006" summary="To work">
+      <option name="closed" value="true" />
+      <created>1733341000314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733341000314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +303,10 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.context.ApplicationContextException" package="org.springframework.context" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
