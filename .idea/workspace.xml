@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd549042-58f3-4f4d-9148-37d798a7c270" name="Changes" comment="To work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstTask/src/main/kotlin/application/Client/NumberApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FirstTask/src/main/kotlin/application/client/NumberApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstTask/src/main/kotlin/application/IncrementService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/FirstTask/src/main/kotlin/application/service/IncrementService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,37 +89,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Third-crew.executor": "Run",
-    "Gradle.Third-crew [init].executor": "Run",
-    "Gradle.Third-crew:FirstTask [bootJar].executor": "Run",
-    "Gradle.Third-crew:FirstTask [bootRun].executor": "Run",
-    "Gradle.Third-crew:FirstTask [buildMyAppImage].executor": "Run",
-    "Gradle.Third-crew:FirstTask [build].executor": "Run",
-    "Gradle.Third-crew:FirstTask [check].executor": "Run",
-    "Gradle.Third-crew:FirstTask [dockerBuildImage].executor": "Run",
-    "Gradle.Third-crew:FirstTask [dockerCreateDockerfile].executor": "Run",
-    "Gradle.Third-crew:FirstTask [dockerPushImage].executor": "Run",
-    "Gradle.Third-crew:FirstTask [dockerSyncBuildContext].executor": "Run",
-    "Kotlin.FirstApplicationKt.executor": "Run",
-    "Kotlin.MainKt (1).executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/yuriy/IdeaProjects/Third-crew/build.gradle",
-    "onboarding.tips.debug.path": "/home/yuriy/IdeaProjects/Third-crew/FirstTask/src/test/Application/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Third-crew.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [bootJar].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [bootRun].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [buildMyAppImage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [check].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerBuildImage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerCreateDockerfile].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerPushImage].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Third-crew:FirstTask [dockerSyncBuildContext].executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FirstApplicationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/yuriy/IdeaProjects/Third-crew/build.gradle&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/yuriy/IdeaProjects/Third-crew/FirstTask/src/test/Application/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/FirstTask/src/main" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="application.service" />
       <recent name="application" />
       <recent name="Application" />
     </key>
@@ -279,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733340820536</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="To work">
+      <option name="closed" value="true" />
+      <created>1733341000314</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733341000314</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

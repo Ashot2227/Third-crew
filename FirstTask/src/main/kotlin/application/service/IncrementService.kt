@@ -1,6 +1,7 @@
 package application.Service
 
-import application.Client.NumberApi
+
+import application.client.NumberApi
 import org.springframework.stereotype.Service
 
 
