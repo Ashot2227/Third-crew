@@ -6,7 +6,6 @@ plugins {
 rootProject.name = "Third-crew"
 
 
-include("Test")
 include("FirstTask")
 include("FirstTask:src:test:Application")
 findProject(":FirstTask:src:test:Application")?.name = "Application"
